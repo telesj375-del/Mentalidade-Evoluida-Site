@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mentalidade Evoluída — Transformação e Renda Online</title>
+  <meta name="description" content="Mentalidade Evoluída — desenvolve disciplina, foco e cria renda online com 2h por dia. Ebook, templates e coaching.">
+  <style>
+    :root{
+      --bg:#021627;
+      --grad1:#0f62fe;
+      --grad2:#2dd4bf;
+      --card:#071025;
+      --muted:#a9c0d9;
+      --accent:#14b8a6;
+      --white:#ffffff;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg) 0%, #041a2a 100%);color:var(--white);line-height:1.5}
+    header{display:flex;align-items:center;justify-content:space-between;padding:24px 4%;background:transparent}
+    .logo{display:flex;align-items:center;gap:12px}
+    .logo img{height:48px}
+    nav a{color:var(--white);text-decoration:none;margin-left:18px;font-weight:600;opacity:.95}
+    .container{max-width:1100px;margin:0 auto;padding:40px 20px}
+    .hero{display:flex;gap:40px;align-items:center}
+    .hero-left{flex:1}
+    h1{font-size:36px;margin:0 0 12px;color:var(--white)}
+    p.lead{color:var(--muted);font-size:18px;margin:0 0 20px}
+    .cta{display:flex;gap:12px}
+    .btn{background:linear-gradient(90deg,var(--grad1),var(--grad2));color:#012; padding:12px 20px;border-radius:10px;border:0;font-weight:700;cursor:pointer;text-decoration:none}
+    .btn.secondary{background:transparent;border:1px solid rgba(255,255,255,.08);color:var(--white)}
+    .hero-right{width:320px}
+    .card{background:var(--card);padding:18px;border-radius:12px}
+    .features{display:flex;gap:12px;margin-top:32px}
+    .feature{background:rgba(255,255,255,.03);padding:16px;border-radius:10px;flex:1}
+    .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:28px}
+    .product{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px}
+    .price{font-weight:800;color:var(--grad2);font-size:20px}
+    .about{display:flex;gap:24px;align-items:center;margin-top:40px}
+    .about img{width:260px;border-radius:10px}
+    .testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:18px}
+    .testi{background:rgba(255,255,255,0.02);padding:16px;border-radius:10px}
+    footer{padding:30px 4%;margin-top:40px;border-top:1px solid rgba(255,255,255,.03)}
+    .flex{display:flex;gap:20px;align-items:center}
+    form input, form textarea{width:100%;padding:12px;border-radius:8px;border:0;background:rgba(255,255,255,0.03);color:var(--white);margin-bottom:10px}
+    @media(max-width:900px){
+      .hero{flex-direction:column}
+      .hero-right{width:100%}
+      h1{font-size:28px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo container">
+      <!-- Substitui /assets/logo-me.png pela tua imagem de logo -->
+      <img src="assets/logo-me.png" alt="ME - Mentalidade Evoluída" />
+      <nav style="margin-left:12px">
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Mentalidade Evoluída — A transformação começa aqui</h1>
+        <p class="lead">Desenvolve foco, disciplina e inteligência emocional. Constrói rendimentos online trabalhando apenas 2 horas por dia. Ebook + templates prontos para usar.</p>
+        <div class="cta">
+          <!-- Substitui GUMROAD_LINK pelo teu link real -->
+          <a class="btn" href="GUMROAD_LINK" target="_blank">Comprar o Ebook — 14,90€</a>
+          <a class="btn secondary" href="#produtos">Ver Produtos</a>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <strong>2h por dia</strong>
+            <div style="color:var(--muted);font-size:14px">Rotina testada para resultados rápidos</div>
+          </div>
+          <div class="feature">
+            <strong>Pack completo</strong>
+            <div style="color:var(--muted);font-size:14px">Ebook + Templates Notion & Excel</div>
+          </div>
+          <div class="feature">
+            <strong>Garantia</strong>
+            <div style="color:var(--muted);font-size:14px">7 dias — reembolso total</div>
+          </div>
+        </div>
+
+      </div>
+      <aside class="hero-right">
+        <div class="card">
+          <!-- Substitui assets/ebook-cover.png pela capa do ebook -->
+          <img src="assets/ebook-cover.png" alt="Capa Ebook Mentalidade Evoluída" style="width:100%;border-radius:8px;margin-bottom:12px" />
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div>
+              <div style="font-weight:700">Ebook — Mentalidade Evoluída</div>
+              <div style="color:var(--muted);font-size:13px">Guia prático + templates</div>
+            </div>
+            <div class="price">14,90€</div>
+          </div>
+          <a class="btn" style="display:block;margin-top:12px;text-align:center" href="GUMROAD_LINK" target="_blank">Comprar Agora</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Produtos -->
+    <section id="produtos">
+      <h2 style="margin-top:40px">Produtos</h2>
+      <div class="products">
+        <div class="product">
+          <h3>Ebook — Mentalidade Evoluída</h3>
+          <p style="color:var(--muted)">Guia completo para foco, disciplina e criação de renda online.</p>
+          <div class="price">14,90€</div>
+          <a class="btn" href="GUMROAD_LINK" style="margin-top:10px;display:inline-block" target="_blank">Comprar</a>
+        </div>
+        <div class="product">
+          <h3>Template Notion — Sistema de Produtividade</h3>
+          <p style="color:var(--muted)">Dashboard, metas, planeamento semanal e trackers.</p>
+          <div class="price">12,00€</div>
+          <a class="btn" href="#" style="margin-top:10px;display:inline-block">Comprar</a>
+        </div>
+        <div class="product">
+          <h3>Pack Excel — Gestão Financeira</h3>
+          <p style="color:var(--muted)">Planilhas prontas para gerir rendimentos e despesas.</p>
+          <div class="price">9,90€</div>
+          <a class="btn" href="#" style="margin-top:10px;display:inline-block">Comprar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+      <div style="flex:1">
+        <h2>Sobre</h2>
+        <p style="color:var(--muted)"><strong>João Teles</strong> — Criador do projeto Mentalidade Evoluída. Ajudo pessoas a desenvolverem disciplina, clareza e sistemas que geram resultados reais. A minha missão é transformar conhecimento em ação aplicável.</p>
+        <p style="color:var(--muted)"><strong>Missão:</strong> Ajudar 10.000 pessoas a melhorar a sua produtividade e rendimentos até 2026.</p>
+      </div>
+      <img src="assets/joao-teles.png" alt="João Teles" />
+    </section>
+
+    <!-- Testemunhos -->
+    <section style="margin-top:24px">
+      <h2>Testemunhos</h2>
+      <div class="testimonials">
+        <div class="testi">“Este ebook mudou a minha forma de pensar. Recomendo!”</div>
+        <div class="testi">“Comecei a aplicar e senti diferença na primeira semana.”</div>
+        <div class="testi">“Ferramentas práticas e fáceis de aplicar.”</div>
+      </div>
+    </section>
+
+    <!-- Blog preview -->
+    <section id="blog" style="margin-top:30px">
+      <h2>Artigos Recentes</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:12px">
+        <article class="card">
+          <h4>Como desenvolver disciplina em 7 dias</h4>
+          <p style="color:var(--muted);font-size:14px">Método prático para criar um hábito diário de 25 minutos.</p>
+        </article>
+        <article class="card">
+          <h4>Como criar um produto digital em 48 horas</h4>
+          <p style="color:var(--muted);font-size:14px">Passo a passo para lançar o teu primeiro ebook.</p>
+        </article>
+        <article class="card">
+          <h4>Como ganhar 300€ na primeira semana</h4>
+          <p style="color:var(--muted);font-size:14px">Ideias de microserviços que vendem rápido.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contacto" style="margin-top:28px">
+      <h2>Contacto</h2>
+      <p style="color:var(--muted)">Envia uma mensagem — respondo em 24–48h.</p>
+      <form id="contactForm" onsubmit="return handleContact(event)">
+        <input type="text" id="name" placeholder="Nome" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <textarea id="message" placeholder="Mensagem" rows="4" required></textarea>
+        <button class="btn" type="submit">Enviar Mensagem</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container flex" style="justify-content:space-between">
+      <div>
+        <strong>MENTALIDADE EVOLUÍDA</strong>
+        <div style="color:var(--muted);margin-top:8px">Disciplina • Foco • Renda Online</div>
+      </div>
+      <div style="color:var(--muted)">© 2025 Mentalidade Evoluída — Todos os direitos reservados</div>
+    </div>
+  </footer>
+
+  <script>
+    function handleContact(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+      const subject = encodeURIComponent('Contacto - Mentalidade Evoluída: ' + name);
+      const body = encodeURIComponent(message + '\n\nContacto: ' + name + ' - ' + email);
+      window.location.href = 'mailto:contact@mentalidadeevoluida.com?subject=' + subject + '&body=' + body;
+      return false;
+    }
+  </script>
+
+</body>
+</html>
